@@ -1,0 +1,12 @@
+def somap(x, y):
+    soma = x + y
+    if x > y:
+        resultado = "O primeiro numero e maior e da pra somar"
+        soma = x + y
+    else:
+        resultado = "O primeiro numero nao e maior que o segundo e nao tem soma."
+    return resultado
+x = 10
+y = 9
+z = somap(x, y)
+print(z)
